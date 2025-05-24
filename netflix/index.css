@@ -1,0 +1,115 @@
+nav{
+    border: 2px solid green ;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav img{
+    width: 100px;
+    height: 80px;
+}
+ nav ul{
+    display: flex;
+    list-style: none;
+ }
+ nav ul li{
+    margin-right: 190px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .login{
+    border: none;
+    border-radius: 2px solid red ;
+    background-color: transparent;
+    color: black ;
+
+}
+.signup{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+
+}
+.login:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer; 
+     padding: 5px 10px ;
+}
+.signup:hover{
+    cursor: pointer;
+}
+nav ul li:hover{
+    cursor: pointer;
+    color: red;
+    border-bottom: 1px solid red ;
+}
+.bigbox{
+    border: 2px solid green ;
+    padding: 10px ;
+    margin-top: 5px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+.bigbox2{
+    border: 2px solid blue;
+    padding: 5px ;
+    width: 550px ;
+    height: 550px ;
+    flex: 1;
+}
+.bigbox3{
+    border: 2px solid purple ;
+    padding: 10px;
+    width: 550px;
+    height: 450px ;
+    margin: 5px;
+}
+.smallbox1{
+     border: 2px solid yellow ;
+    padding: 10px;
+    width: 845px;
+    height: 250px ;
+    flex: 1;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.smallbox2{
+     border: 2px solid black ;
+    padding: 10px;
+    width: 845px;
+    height: 250px ;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.bigbox3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNj_czUcOGEqQnBDMxsjpw4XjPaQmJZ38KWA&s);
+    background-repeat: none;
+    background-size: contain;
+    text-align: center;
+    padding: 50px 25px ;
+    background-position: center ;
+}
+.button{
+      border-radius: 20px;
+    border: none;
+    width: 400px;
+    height: 20px;
+    background-color: black;
+color: white;
+}
+.p1{
+    margin-top: 80PX;
+}
+.button:hover{
+    color: white;
+    background-color: red;
+}
